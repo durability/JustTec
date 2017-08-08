@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>网站后台</title>
+	<title>列表|后台管理</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -10,6 +10,11 @@
 	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+		<style>
+		.breadcrumb{
+			padding-top: 20px;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
@@ -65,5 +70,178 @@
 			</div>
 		</div>
 	</div>
+	<div class="container">
+		<div class="row">		
+			<ol class="breadcrumb">
+				<li><a href="#"><i class="fa fa-home"></i>控制面板</a></li>
+				<li><a href="#">图书管理</a></li>
+				<li class="active">列表</li>
+			</ol>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+			<table class="table table-striped">	
+				<thead>
+					<tr>
+						<th><input type="checkbox" id="checkAll"></th>
+						<th>ID</th>
+						<th>标题</th>
+						<th>分类</th>
+						<th>定价</th>
+						<th>销售状态</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>1</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button>
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>2</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>3</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>4</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>5</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>6</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-danger">停售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>7</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-danger">停售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>8</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>9</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="subBox"></td>
+						<td>10</td>
+						<td>Python Flask web编程</td>
+						<td>计算机</td>
+						<td>69.90</td>
+						<td><label for="" class="label label-success">在售</label></td>
+						<td><button type="button" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
+						<button type="button" class="btn btn-default btn-xs"><i class="fa fa-trash"></i></button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+		<nav class="text-center">
+			<ul class="pagination">
+				<li><a href="#">&laquo;</a></li>
+				<li class="active"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li><a href="#">&raquo;</a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<p class="text-center">&copy;2016 优品课堂 版权所有 CODECLASSROOM.COM</p>
+		</div>
+	</div>
 </body>
 </html>
+<script>
+        $(function() {
+           $("#checkAll").click(function() {
+           		var isChecked = $(this).prop("checked")
+                $('input[name="subBox"]').prop("checked",isChecked); 
+            });
+            var $subBox = $("input[name='subBox']");
+            $subBox.click(function(){
+                $("#checkAll").attr("checked",$subBox.length == $("input[name='subBox']:checked").length ? true : false);
+            });
+        });
+</script>
